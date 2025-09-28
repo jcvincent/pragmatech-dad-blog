@@ -1,10 +1,28 @@
-baseURL = '/'
+baseURL = 'https://pragmatechdad.blog/'
 languageCode = 'en-us'
+DefaultContentLanguage = "en"
 title = 'Pragmatech Dad Blog'
 theme = 'hugo-paper'
-pagination.pagerSize = 5
+author = 'jcvincent'
+copyright = "© 2025, jcvincent"
+
+
+[pagination]
+  pagerSize = 5
 
 [params]
     contentTypeName = 'posts'
-    # color style
     color = 'linen'
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+

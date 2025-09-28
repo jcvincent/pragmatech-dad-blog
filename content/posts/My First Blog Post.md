@@ -7,7 +7,9 @@ tags:
   - posts
 ---
 
-Inspired by [networkchuck](https://www.youtube.com/watch?v=dnE7c0ELEH8).
+Inspired by networkchuck.
+
+{{< youtube dnE7c0ELEH8 >}}
 
 I did my blog site by running in Windows 11 using Obsidian, Hugo, Github and Hostinger.
 
