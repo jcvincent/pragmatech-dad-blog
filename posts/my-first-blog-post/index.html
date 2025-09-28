@@ -1,0 +1,264 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>My First Blog Post - Pragmatech Dad Blog</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="Inspired by networkchuck.
+
+      
+    
+
+I did my blog site by running in Windows 11 using Obsidian, Hugo, Github and Hostinger.
+Install Go Lang
+Install Hugo on Windows
+See documentation at https://gohugo.io/.
+Use Winget
+Winget is Microsoft’s official free and open-source package manager for Windows. To install the extended edition of Hugo:" />
+  <meta name="author" content="Pragmatech Dad Blog" /><link rel="preload stylesheet" as="style" href="https://pragmatechdad.blog/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://pragmatechdad.blog/theme.png" />
+
+  
+
+  
+
+  <script
+    defer
+    src="https://pragmatechdad.blog/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="https://pragmatechdad.blog/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://pragmatechdad.blog/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.150.1">
+  <meta itemprop="name" content="My First Blog Post">
+  <meta itemprop="description" content="Inspired by networkchuck.
+I did my blog site by running in Windows 11 using Obsidian, Hugo, Github and Hostinger.
+Install Go Lang
+Install Hugo on Windows See documentation at https://gohugo.io/.
+Use Winget Winget is Microsoft’s official free and open-source package manager for Windows. To install the extended edition of Hugo:">
+  <meta itemprop="datePublished" content="2025-09-28T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-09-28T00:00:00+00:00">
+  <meta itemprop="wordCount" content="235">
+  <meta itemprop="keywords" content="Pragmatechdad,Posts"><meta property="og:url" content="https://pragmatechdad.blog/posts/my-first-blog-post/">
+  <meta property="og:site_name" content="Pragmatech Dad Blog">
+  <meta property="og:title" content="My First Blog Post">
+  <meta property="og:description" content="Inspired by networkchuck.
+I did my blog site by running in Windows 11 using Obsidian, Hugo, Github and Hostinger.
+Install Go Lang
+Install Hugo on Windows See documentation at https://gohugo.io/.
+Use Winget Winget is Microsoft’s official free and open-source package manager for Windows. To install the extended edition of Hugo:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-28T00:00:00+00:00">
+    <meta property="article:tag" content="Pragmatechdad">
+    <meta property="article:tag" content="Posts">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="My First Blog Post">
+  <meta name="twitter:description" content="Inspired by networkchuck.
+I did my blog site by running in Windows 11 using Obsidian, Hugo, Github and Hostinger.
+Install Go Lang
+Install Hugo on Windows See documentation at https://gohugo.io/.
+Use Winget Winget is Microsoft’s official free and open-source package manager for Windows. To install the extended edition of Hugo:">
+
+  <link rel="canonical" href="https://pragmatechdad.blog/posts/my-first-blog-post/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="https://pragmatechdad.blog/"
+      >Pragmatech Dad Blog</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      ></nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">My First Blog Post</h1><div class="text-xs antialiased opacity-60"><time>Sep 28, 2025</time></div></header>
+
+  <section><p>Inspired by networkchuck.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/dnE7c0ELEH8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>I did my blog site by running in Windows 11 using Obsidian, Hugo, Github and Hostinger.</p>
+<p>Install Go Lang</p>
+<p><a href="https://gohugo.io/installation/windows/">Install Hugo on Windows</a>
+See documentation at <a href="https://gohugo.io/">https://gohugo.io/</a>.</p>
+<p>Use Winget
+<a href="https://learn.microsoft.com/en-us/windows/package-manager/">Winget</a> is Microsoft’s official free and open-source package manager for Windows. To install the extended edition of Hugo:</p>
+<pre tabindex="0"><code>winget install Hugo.Hugo.Extended
+</code></pre><p>To uninstall the extended edition of Hugo:</p>
+<pre tabindex="0"><code>winget uninstall --name &#34;Hugo (Extended)&#34;
+</code></pre><p>Create a new site</p>
+<pre tabindex="0"><code>## Verify Hugo works
+hugo version
+
+## Create a new site 
+
+hugo new site websitename
+cd websitename
+</code></pre><p>Download a Hugo Theme</p>
+<p>Select your theme here <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>.</p>
+<p>Initialize your local git repo</p>
+<pre tabindex="0"><code>## Initialize a git repository (Make sure you are in your Hugo website directory)
+
+git init
+
+## Set global username and email parameters for git
+
+git config --global user.name &#34;Your Name&#34;
+git config --global user.email &#34;your.email@example.com&#34;
+
+
+## Install a theme (we are installing the Terminal theme here). Once downloaded it should be in your Hugo themes folder
+## Find a theme ---&gt; https://themes.gohugo.io/
+
+git submodule add -f https://github.com/nanxiaobei/hugo-paper.git themes/hugo-paper
+</code></pre><p>Setup GitHub</p>
+<ul>
+<li>Git yourself an account</li>
+<li>Then create a repo</li>
+</ul>
+<p>Authenticate yourself</p>
+<pre tabindex="0"><code>## Generate an SSH key (Mac/Linux/Windows)
+
+ssh-keygen -t rsa -b 4096 -C &#34;your_email@example.com&#34;
+</code></pre><p>Push to GitHub</p>
+<pre tabindex="0"><code># Step 8: Push the public folder to the hostinger branch using subtree split and force push
+echo &#34;Deploying to GitHub Hostinger...&#34;
+git subtree split --prefix public -b hostinger-deploy
+git push origin hostinger-deploy:hostinger --force
+git branch -D hostinger-deploy
+</code></pre></section>
+
+  <footer class="mt-12 flex flex-wrap"><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://pragmatechdad.blog/tags/pragmatechdad"
+      >pragmatechdad</a
+    ><a
+      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://pragmatechdad.blog/tags/posts"
+      >posts</a
+    ></footer></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">© 2025, jcvincent</div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>

@@ -2,24 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/my-blog-pipeline/</loc>
+    <loc>https://pragmatechdad.blog/posts/my-first-blog-post/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://pragmatechdad.blog/posts/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/posts/</loc>
+    <loc>https://pragmatechdad.blog/tags/posts/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://pragmatechdad.blog/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/pragmatechdad/</loc>
+    <loc>https://pragmatechdad.blog/tags/pragmatechdad/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://pragmatechdad.blog/tags/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://pragmatechdad.blog/about/</loc>
+  </url><url>
+    <loc>https://pragmatechdad.blog/categories/</loc>
   </url>
 </urlset>
