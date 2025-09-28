@@ -1,7 +1,10 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Pragmatech Dad Blog'
+theme = 'hugo-paper'
+pagination.pagerSize = 5
 
 [params]
-# color style
-color = 'linen'
+    contentTypeName = 'posts'
+    # color style
+    color = 'linen'
