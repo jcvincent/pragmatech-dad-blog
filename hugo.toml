@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Pragmatech Dad Blog'
+
+[params]
+# color style
+color = 'linen'

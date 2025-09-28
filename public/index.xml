@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pragmatech Dad Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Pragmatech Dad Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Blog Pipelines</title>
+      <link>http://localhost:1313/posts/my-blog-pipeline/</link>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-blog-pipeline/</guid>
+      <description>&lt;p&gt;Reference from networkchuck&lt;/p&gt;&#xA;&lt;p&gt;Running in Windows 11&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/windows/&#34;&gt;Install Hugo on Windows&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use Winget&#xA;&lt;a href=&#34;https://learn.microsoft.com/en-us/windows/package-manager/&#34;&gt;Winget&lt;/a&gt; is Microsoft’s official free and open-source package manager for Windows. To install the extended edition of Hugo:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;winget install Hugo.Hugo.Extended&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To uninstall the extended edition of Hugo:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;winget uninstall --name &amp;#34;Hugo (Extended)&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Hugo&lt;/p&gt;&#xA;&lt;p&gt;hugo new site pragmatechdad&#xA;Congratulations! Your new Hugo site was created in C:\SandBox\pragmatechdad.&lt;/p&gt;&#xA;&lt;p&gt;Just a few more steps&amp;hellip;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Change the current directory to C:\SandBox\pragmatechdad.&lt;/li&gt;&#xA;&lt;li&gt;Create or install a theme:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create a new theme with the command &amp;ldquo;hugo new theme &lt;!-- raw HTML omitted --&gt;&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Or, install a theme from &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Edit hugo.toml, setting the &amp;ldquo;theme&amp;rdquo; property to the theme name.&lt;/li&gt;&#xA;&lt;li&gt;Create new content with the command &amp;ldquo;hugo new content &lt;!-- raw HTML omitted --&gt;&amp;lt;FILENAME&amp;gt;.&lt;!-- raw HTML omitted --&gt;&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;Start the embedded web server with the command &amp;ldquo;hugo server &amp;ndash;buildDrafts&amp;rdquo;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;See documentation at &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
