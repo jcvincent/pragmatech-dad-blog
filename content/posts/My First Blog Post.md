@@ -1,15 +1,18 @@
 ---
 title: My First Blog Post
-date: 2025-09-28
+publishDate: 2025-09-28
 draft: false
 tags:
-  - pragmatechdad
-  - posts
+  - technical
+  - post
 ---
 
 Inspired by networkchuck.
 
-{{< youtube dnE7c0ELEH8 >}}
+{{< youtube id=dnE7c0ELEH8 loading=lazy >}}
+<!-- 
+reference https://gohugo.io/shortcodes/youtube/ 
+-->
 
 I did my blog site by running in Windows 11 using Obsidian, Hugo, Github and Hostinger.
 
