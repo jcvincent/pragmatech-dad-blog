@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pragmatech Dad Blog</title>
-    <link>https://pragmatechdad.blog/</link>
-    <description>Recent content on Pragmatech Dad Blog</description>
+    <title>Post on Pragmatech Dad Blog</title>
+    <link>https://pragmatechdad.blog/tags/post/</link>
+    <description>Recent content in Post on Pragmatech Dad Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© 2025, jcvincent</copyright>
     <lastBuildDate>Mon, 29 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pragmatechdad.blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pragmatechdad.blog/tags/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Are you a hugger?</title>
       <link>https://pragmatechdad.blog/posts/are-you-a-hugger/</link>
@@ -36,13 +36,6 @@
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://pragmatechdad.blog/posts/my-first-blog-post/</guid>
       <description>&lt;p&gt;Inspired by networkchuck.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;lazy&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/dnE7c0ELEH8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;I did my blog site by running in Windows 11 using Obsidian, Hugo, Github and Hostinger.&lt;/p&gt;&#xA;&lt;p&gt;Install Go Lang&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/windows/&#34;&gt;Install Hugo on Windows&lt;/a&gt;&#xA;See documentation at &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Use Winget&#xA;&lt;a href=&#34;https://learn.microsoft.com/en-us/windows/package-manager/&#34;&gt;Winget&lt;/a&gt; is Microsoft’s official free and open-source package manager for Windows. To install the extended edition of Hugo:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://pragmatechdad.blog/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pragmatechdad.blog/about/</guid>
-      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;p&gt;I am jcvincent,&lt;/p&gt;&#xA;&lt;p&gt;A follower of Christ&#xA;A pragmatic and technical son, brother, husband, dad&lt;/p&gt;&#xA;&lt;p&gt;Welcome to my blog!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
