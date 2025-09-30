@@ -1,6 +1,6 @@
 baseURL = 'https://pragmatechdad.blog/'
 languageCode = 'en-us'
-DefaultContentLanguage = "en"
+defaultContentLanguage = 'en'
 title = 'Pragmatech Dad Blog'
 theme = 'hugo-paper'
 author = 'jcvincent'
