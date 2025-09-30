@@ -1,4 +1,4 @@
-baseURL = 'https://pragmatechdad.blog/'
+baseURL = '/'
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
 title = 'Pragmatech Dad Blog'
@@ -29,11 +29,6 @@ tag = "tags"
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
-    weight = 10
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
     weight = 10
   [[menu.main]]
     identifier = "tags"
