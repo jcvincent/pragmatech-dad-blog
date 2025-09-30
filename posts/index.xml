@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© 2025, jcvincent</copyright>
-    <lastBuildDate>Mon, 29 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pragmatechdad.blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another Blog Post</title>
+      <link>https://pragmatechdad.blog/posts/another-blog-post/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://pragmatechdad.blog/posts/another-blog-post/</guid>
+      <description>&lt;h2 id=&#34;just-another-blog-post-for-testing-the-webhook&#34;&gt;Just another blog post for testing the webhook&lt;/h2&gt;</description>
+    </item>
     <item>
       <title>Are you a hugger?</title>
       <link>https://pragmatechdad.blog/posts/are-you-a-hugger/</link>
